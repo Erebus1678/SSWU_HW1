@@ -73,6 +73,7 @@
     background-repeat: no-repeat;
     background-size: contain;
 
+    margin-bottom: 170px;
 }
 
 .hero__section-wrapper {
@@ -118,4 +119,111 @@
     text-align: center;
 
     color: var(--white-color);
+}
+
+.second__section__descr-tag {
+    font-family: var(--font-lato);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 157%;
+
+    color: var(--gray-color);
+}
+
+.second__section__descr-main {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 190px;
+}
+
+.second__section__descr-title {
+    font-family: var(--font-georgian);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 157%;
+
+    color: var(--main-green-color);
+
+    margin: 0 126px 0 0;
+}
+
+.second__section__descr-text {
+    font-family: var(--font-lato);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+
+    color: var(--gray-color);
+}
+
+.second__section__cards {
+    display: grid;
+    grid-template-columns: 0 repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 0px;
+}
+
+.first-card {
+    grid-area: 1 / 2 / 3 / 3;
+
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.card__title {
+    position: relative;
+
+    font-family: var(--font-georgian);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 150%;
+
+    color: #000000;
+}
+
+.card__num {
+    position: absolute;
+    top: -285px;
+    left: -80px;
+
+    font-family: var(--font-georgian);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 150%;
+
+    color: rgba(1, 153, 109, 0.2);
+    z-index: -1;
+}
+
+.card__descr {
+    font-family: var(--font-lato);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--gray-color);
+}
+
+.card__descr__img {
+    background: #C4C4C4;
+    border-radius: 12px;
+}
+
+.second-card {
+    grid-area: 2 / 3 / 4 / 4;
+}
+
+.third-card {
+    grid-area: 1 / 4 / 3 / 5;
 }
