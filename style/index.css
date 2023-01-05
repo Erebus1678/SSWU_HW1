@@ -476,8 +476,16 @@
 
 }
 
+.social-links {
+    align-self: end;
+}
+
 .social-links a {
     margin-right: 50px;
+}
+
+.store-links {
+    align-self: end;
 }
 
 .store-links-title {
